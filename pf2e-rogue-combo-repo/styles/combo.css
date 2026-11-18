@@ -1,0 +1,14 @@
+.rcp-panel .window-content { background: #1d2024; color: #d9dde2; padding: 10px 12px; gap: 8px; }
+.rcp-name { font-weight: 600; font-size: 1.1em; }
+.rcp-row { display: flex; align-items: center; gap: 14px; }
+.rcp-pips { display: flex; gap: 12px; padding: 4px 2px; }
+.rcp-pip { width: 16px; height: 16px; transform: rotate(45deg); border: 2px solid #8f98a3; background: #14161a; }
+.rcp-pip.on { background: #c8372d; border-color: #d9a441; box-shadow: 0 0 8px #c8372d99; }
+.rcp-status { margin: 0; color: #aab1ba; font-size: 0.9em; }
+.rcp-buttons { display: flex; flex-direction: column; gap: 6px; }
+.rcp-gm { display: flex; gap: 6px; }
+.rcp-gm button { flex: 1; }
+.rcp-empty { margin: 0; color: #aab1ba; }
+.rcp-sheet { display: flex; align-items: center; flex-wrap: wrap; gap: 14px; padding: 6px 12px; margin: 4px 0; background: #1d2024; color: #d9dde2; border-left: 3px solid #c8372d; }
+.rcp-sheet .rcp-label { font-weight: 600; }
+.rcp-sheet button { width: auto; flex: none; line-height: 1.6; padding: 0 10px; }
